@@ -3,7 +3,7 @@ def main():
     c = int(input("Introduce los cm: "))
     if c<100:
         print(c,"cm")
-    elif c<1000:
+    elif c < 1000:
         x=c//100
         y=c-(x*100)
         print(x,"m")

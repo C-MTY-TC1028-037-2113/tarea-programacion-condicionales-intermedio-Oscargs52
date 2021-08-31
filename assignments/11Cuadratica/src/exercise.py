@@ -8,7 +8,7 @@ def main():
     if (a==0) and (b==0):
         print("No tiene solucion")
     elif (a==0):
-        raiz=-c/b
+        raiz = -c/b
         print(raiz)
     else:
         discrim=b**2-4*a*c
